@@ -11,6 +11,7 @@ from datetime import datetime
 app = dash.Dash(__name__, 
                 external_stylesheets=[dbc.themes.DARKLY],
                 suppress_callback_exceptions=True)
+server = app.server  # Add this line to expose the Flask server
 
 # Load and prepare the data
 df = pd.read_csv("Supermart_Grocery_Dataset.csv")
