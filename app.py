@@ -392,4 +392,5 @@ def display_page(pathname):
         return sales_layout
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    app.run(debug=False, host='0.0.0.0', port=8080)
