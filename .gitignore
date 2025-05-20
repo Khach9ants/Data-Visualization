@@ -1,9 +1,0 @@
-# Add these lines to your .gitignore file
-pages/
-components/
-__pycache__/
-.env
-.DS_Store
-.vscode/
-.gitignore
-.gitignore
